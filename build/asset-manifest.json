@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/chanoha/finedesigntalk/static/css/main.073c9b0a.css",
-    "main.js": "/chanoha/finedesigntalk/static/js/main.3c5323b4.js",
-    "static/js/787.75788265.chunk.js": "/chanoha/finedesigntalk/static/js/787.75788265.chunk.js",
-    "static/media/logo.svg": "/chanoha/finedesigntalk/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/chanoha/finedesigntalk/index.html",
-    "main.073c9b0a.css.map": "/chanoha/finedesigntalk/static/css/main.073c9b0a.css.map",
-    "main.3c5323b4.js.map": "/chanoha/finedesigntalk/static/js/main.3c5323b4.js.map",
-    "787.75788265.chunk.js.map": "/chanoha/finedesigntalk/static/js/787.75788265.chunk.js.map"
+    "main.css": "./static/css/main.073c9b0a.css",
+    "main.js": "./static/js/main.8f172bac.js",
+    "static/js/787.75788265.chunk.js": "./static/js/787.75788265.chunk.js",
+    "static/media/logo.svg": "./static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "./index.html",
+    "main.073c9b0a.css.map": "./static/css/main.073c9b0a.css.map",
+    "main.8f172bac.js.map": "./static/js/main.8f172bac.js.map",
+    "787.75788265.chunk.js.map": "./static/js/787.75788265.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.3c5323b4.js"
+    "static/js/main.8f172bac.js"
   ]
 }
