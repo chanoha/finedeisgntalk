@@ -1,4 +1,6 @@
 import React from 'react';
+import styled from 'styled-components';
+import BlueButton from './components/styledComponents';
 import logo from './logo.svg';
 import './App.css';
 
@@ -16,7 +18,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React + typescript
+          <BlueButton>Learn React + typescript</BlueButton>
         </a>
       </header>
     </div>
