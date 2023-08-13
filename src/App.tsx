@@ -1,14 +1,31 @@
 import React from 'react';
 import styled from 'styled-components';
-import BlueButton from './components/styledComponents';
-import logo from './logo.svg';
+import { BlueButton, AppHeader, Logo, PageTitle, PageDescription,LinkBlock, LinkList, Link } from './components/styledComponents';
+import logo from './img/finedesigntalk_logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      <AppHeader>
+        <Logo>
+          <img src={logo} alt="D" className="Logo" />
+        </Logo>
+      </AppHeader>
+      <PageTitle>Fine Design Talk</PageTitle>
+      <PageDescription>
+        デザイナーの山田と藤本が<br />
+        最近興味のあるデザインについて、<br />
+        ゆるく深ぼるPodCast。毎週金曜日に配信します。
+      </PageDescription>
+      <LinkBlock>
+        <LinkList>
+          <Link service="spotify" href="#">Spotify</Link>
+        </LinkList>
+      </LinkBlock>
+
+      <div className="App-header">
+        {/* <img src={logo} className="App-logo" alt="logo" /> */}
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -20,7 +37,7 @@ function App() {
         >
           <BlueButton>Learn React + typescript</BlueButton>
         </a>
-      </header>
+      </div>
     </div>
   );
 }
