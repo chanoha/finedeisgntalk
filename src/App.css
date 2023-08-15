@@ -56,12 +56,13 @@ body {
   display: inline-block;
   text-decoration: none;
   color: #333;
-  padding: 0px 4vw;
+  padding: 0px 13vw;
   width: 100%;
-  height: 43vw;
-  background: url(./img/fukidashi.svg) no-repeat;
+  height: 33vw;
+  background: url(./img/fukidashi.svg) no-repeat center;
   position: relative;
   margin: 0px auto 2vw auto;
+  font-family: 'Noto Sans JP', sans-serif;
 }
 
 .EpisodeList:last-child {
@@ -71,8 +72,8 @@ body {
 
 @media (min-width: 620px) {
   .EpisodeLink {
-    width: 580px;
-    height: 260px;
+    width: 490px;
+    height: 220px;
     padding: 0px 26px;
   }
 
@@ -82,19 +83,29 @@ body {
 
   .EpisodeNumber {
     width: 140px!important;
-    top: 84px!important;
+    top: 74px!important;
+  }
+
+  .EpisodeDetail {
+    /* padding-top: 38px!important; */
   }
 }
+
+
 
 .EpisodeDetail {
   margin-left: 25vw;
   text-align: left;
+  /* padding-top: 7vw; */
+  position: absolute;
+	top: 40%;
+	transform: translateY(-50%);
 }
 
 .EpisodeNumber {
   width: 23vw;
   position: absolute;
-  top: 11vw;
+  top: 13vw;
   font-size: 22px;
   font-weight: bold;
   text-align: center;
@@ -106,4 +117,47 @@ body {
 
 .EpisodeDescription {
   display: none;
+  font-size: 16px;
+  line-height: 22px;
+  margin-top: 4px;
+}
+
+.EpisodeDateTime {
+  display: block;
+}
+
+.EpisodeDate {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.EpisodeTime {
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 12px;
+  font-weight: bold;
+  &::before {
+    content: "";
+    vertical-align: middle;
+    width: 14px;
+    height: 17px;
+    margin-right: 2px;
+    display: inline-block;
+    background: url(./img/playTime.svg) no-repeat;
+    background-size: 14px 14px;
+  }
+}
+
+@media (min-width: 600px) {
+  .EpisodeDetail {
+    /* padding-top: 5vw; */
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+  }
+
+  .EpisodeDescription {
+    display: block;
+  }
 }
