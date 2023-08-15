@@ -1,3 +1,9 @@
+@import-normalize;
+
+body {
+  background: #fff;
+}
+
 .App {
   text-align: center;
 }
@@ -9,6 +15,7 @@
 
 .Logo {
   width: 40%;
+  margin: 0 auto;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -28,4 +35,75 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.Episode {
+  padding: 0px;
+  margin: 0px 20px;
+  color: #333;
+}
+
+.EpisodeList {
+  /* padding: 0px 4vw;
+  width: 100%;
+  height: 43vw;
+  background: url(./img/fukidashi.svg) no-repeat;
+  position: relative;
+  margin: 0px auto 2vw auto; */
+}
+
+.EpisodeLink {
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+  padding: 0px 4vw;
+  width: 100%;
+  height: 43vw;
+  background: url(./img/fukidashi.svg) no-repeat;
+  position: relative;
+  margin: 0px auto 2vw auto;
+}
+
+.EpisodeList:last-child {
+  margin-bottom: 0px;
+}
+
+
+@media (min-width: 620px) {
+  .EpisodeLink {
+    width: 580px;
+    height: 260px;
+    padding: 0px 26px;
+  }
+
+  .EpisodeDetail {
+    margin-left: 154px!important;
+  }
+
+  .EpisodeNumber {
+    width: 140px!important;
+    top: 84px!important;
+  }
+}
+
+.EpisodeDetail {
+  margin-left: 25vw;
+  text-align: left;
+}
+
+.EpisodeNumber {
+  width: 23vw;
+  position: absolute;
+  top: 11vw;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.EpisodeTitle {
+  font-size: 20px;
+}
+
+.EpisodeDescription {
+  display: none;
 }

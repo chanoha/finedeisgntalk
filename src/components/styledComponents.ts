@@ -18,7 +18,7 @@ const AppHeader = styled.header`
 `;
 
 const Logo = styled.div`
-  margin: 46px auto 0px auto;
+  margin-top: 46px;
 `;
 
 const PageTitle = styled.h1`
@@ -27,21 +27,24 @@ const PageTitle = styled.h1`
   font-weight: bold;
   margin: 10px 0px 0px 0px;
   font-family: 'Noto Sans JP', sans-serif;
+  color: #333;
 `;
 
 const PageDescription = styled.p`
   font-size: 14px;
   margin: 10px 0px 0px 0px;
   font-family: 'Noto Sans JP', sans-serif;
+  color: #333;
 `;
 
 const LinkBlock = styled.ul`
-  padding: 0px;
+  padding: 20px;
 `;
 
 const LinkList = styled.li`
   background-color: #daff00;
   font-family: 'Noto Sans JP', sans-serif;
+  font-weight: bold;
   font-size: 12px;
   display: inline-block;
   height: 30px;
