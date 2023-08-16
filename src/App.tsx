@@ -1,6 +1,6 @@
 import React from 'react';
 // import styled from 'styled-components';
-import { AppHeader, Logo, PageTitle, PageDescription,LinkBlock, LinkList, Link, Episode, EpisodeList, EpisodeLink, EpisodeNumber, EpisodeDetail, EpisodeTitle, EpisodeDescription, EpisodeDateTime, EpisodeDate, EpisodeTime } from './components/styledComponents';
+import { AppHeader, Logo, PageTitle, PageDescription,LinkBlock, LinkList, Link, Episode, EpisodeList, EpisodeLink, EpisodeNumber, EpisodeDetail, EpisodeTitle, EpisodeDescription, EpisodeDateTime, EpisodeDate, EpisodeTime, AppFooter } from './components/styledComponents';
 import logo from './img/finedesigntalk_logo.svg';
 import './reset.css'
 import './App.css';
@@ -26,7 +26,7 @@ function App() {
       </LinkBlock>
       <Episode>
         <EpisodeList>
-          <EpisodeLink>
+          <EpisodeLink href="#">
             <EpisodeNumber>#1</EpisodeNumber>
             <EpisodeDetail>
               <EpisodeTitle>自己紹介</EpisodeTitle>
@@ -39,7 +39,7 @@ function App() {
           </EpisodeLink>
         </EpisodeList>
         <EpisodeList>
-        <EpisodeLink>
+        <EpisodeLink href="#">
           <EpisodeNumber>#999</EpisodeNumber>
             <EpisodeDetail>
               <EpisodeTitle>自己紹介</EpisodeTitle>
@@ -52,6 +52,7 @@ function App() {
           </EpisodeLink>
         </EpisodeList>
       </Episode>
+      <AppFooter>&copy; Fine Design Talk</AppFooter>
     </div>
   );
 }

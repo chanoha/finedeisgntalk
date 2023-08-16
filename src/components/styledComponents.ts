@@ -1,17 +1,5 @@
 import styled from 'styled-components';
 
-const BlueButton = styled.button`
-  background-color: blue;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  &:hover {
-    background-color: darkblue;
-  }
-`;
-
 const AppHeader = styled.header`
   background-color: #fff;
   border-top: #daff00 10px solid;
@@ -181,4 +169,15 @@ const EpisodeTime = styled.p`
   }
 `;
 
-export { BlueButton, AppHeader, Logo, PageTitle, PageDescription, LinkBlock, LinkList, Link, Episode, EpisodeList, EpisodeLink, EpisodeNumber, EpisodeDetail, EpisodeTitle, EpisodeDescription, EpisodeDateTime, EpisodeDate, EpisodeTime };
+const AppFooter = styled.footer`
+  background-color: #daff00;
+  width: 100%;
+  height: 30px;
+  margin-top: 50px;
+  font-size: 12px;
+  line-height: 30px;
+  vertical-align: center;
+  color: #333;
+`;
+
+export { AppHeader, Logo, PageTitle, PageDescription, LinkBlock, LinkList, Link, Episode, EpisodeList, EpisodeLink, EpisodeNumber, EpisodeDetail, EpisodeTitle, EpisodeDescription, EpisodeDateTime, EpisodeDate, EpisodeTime, AppFooter };
