@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "./static/css/main.26a05705.css",
-    "main.js": "./static/js/main.bf2df7df.js",
+    "main.css": "./static/css/main.54998683.css",
+    "main.js": "./static/js/main.87ece47c.js",
     "static/media/finedesigntalk_logo.svg": "./static/media/finedesigntalk_logo.4e854626281002b8eafac21dcab5be37.svg",
     "index.html": "./index.html",
-    "main.26a05705.css.map": "./static/css/main.26a05705.css.map",
-    "main.bf2df7df.js.map": "./static/js/main.bf2df7df.js.map"
+    "main.54998683.css.map": "./static/css/main.54998683.css.map",
+    "main.87ece47c.js.map": "./static/js/main.87ece47c.js.map"
   },
   "entrypoints": [
-    "static/css/main.26a05705.css",
-    "static/js/main.bf2df7df.js"
+    "static/css/main.54998683.css",
+    "static/js/main.87ece47c.js"
   ]
 }
