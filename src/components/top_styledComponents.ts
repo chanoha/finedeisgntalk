@@ -26,7 +26,7 @@ const PageDescription = styled.p`
 `;
 
 const LinkBlock = styled.ul`
-  padding: 20px;
+  padding: 10px 20px 20px 20px;
 `;
 
 const LinkList = styled.li`
@@ -37,12 +37,16 @@ const LinkList = styled.li`
   display: inline-block;
   height: 30px;
   border-radius: 20px;
+  margin: 10px 0px 0px 10px;
+  &:first-child {
+    margin-left: 0px;
+  }
   &:hover {
     opacity: 0.8;
   }
 `;
 
-const Link = styled.a<{ service?: string }>`
+const Links = styled.a<{ service?: string }>`
   text-decoration: none;
   color: #333;
   display: inline-block;
@@ -68,6 +72,15 @@ const Link = styled.a<{ service?: string }>`
   }
 `;
 
+const LinksNone = styled.a`
+  text-decoration: none;
+  color: #333;
+  display: inline-block;
+  padding: 0px 16px;
+  height: 30px;
+  line-height: 28px;
+`;
+
 const Episode = styled.ol`
   padding: 0px;
   margin: 0px 20px;
@@ -80,7 +93,7 @@ const EpisodeList = styled.li`
   }
 `;
 
-const EpisodeLink = styled.a`
+const EpisodeLink = styled.span`
   display: inline-block;
   text-decoration: none;
   color: #333;
@@ -180,4 +193,4 @@ const AppFooter = styled.footer`
   color: #333;
 `;
 
-export { AppHeader, Logo, PageTitle, PageDescription, LinkBlock, LinkList, Link, Episode, EpisodeList, EpisodeLink, EpisodeNumber, EpisodeDetail, EpisodeTitle, EpisodeDescription, EpisodeDateTime, EpisodeDate, EpisodeTime, AppFooter };
+export { AppHeader, Logo, PageTitle, PageDescription, LinkBlock, LinkList, Links, Episode, EpisodeList, EpisodeLink, EpisodeNumber, EpisodeDetail, EpisodeTitle, EpisodeDescription, EpisodeDateTime, EpisodeDate, EpisodeTime, AppFooter, LinksNone };
